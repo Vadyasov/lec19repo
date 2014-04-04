@@ -22,6 +22,7 @@
 		1A55821218EF11AD001380B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A55821018EF11AD001380B5 /* InfoPlist.strings */; };
 		1A55821418EF11AD001380B5 /* lec19Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55821318EF11AD001380B5 /* lec19Tests.m */; };
 		1A55821E18EF12E2001380B5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55821D18EF12E2001380B5 /* iAd.framework */; };
+		1A55822118EF17D0001380B5 /* testObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55822018EF17D0001380B5 /* testObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1A55821118EF11AD001380B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A55821318EF11AD001380B5 /* lec19Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lec19Tests.m; sourceTree = "<group>"; };
 		1A55821D18EF12E2001380B5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		1A55821F18EF17D0001380B5 /* testObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testObj.h; sourceTree = "<group>"; };
+		1A55822018EF17D0001380B5 /* testObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				1A5581FA18EF11AD001380B5 /* Main.storyboard */,
 				1A5581FD18EF11AD001380B5 /* ViewController.h */,
 				1A5581FE18EF11AD001380B5 /* ViewController.m */,
+				1A55821F18EF17D0001380B5 /* testObj.h */,
+				1A55822018EF17D0001380B5 /* testObj.m */,
 				1A55820018EF11AD001380B5 /* Images.xcassets */,
 				1A5581EF18EF11AD001380B5 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				1A5581FF18EF11AD001380B5 /* ViewController.m in Sources */,
 				1A5581F918EF11AD001380B5 /* AppDelegate.m in Sources */,
 				1A5581F518EF11AD001380B5 /* main.m in Sources */,
+				1A55822118EF17D0001380B5 /* testObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
