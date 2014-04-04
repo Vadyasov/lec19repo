@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <iAd/iAd.h>
+#import "GADBannerView.h"
 
-@interface ViewController : UIViewController <ADBannerViewDelegate>
+@interface ViewController : UIViewController <ADBannerViewDelegate, GADBannerViewDelegate> {
+    
+    GADBannerView *gadView;
+}
 
 @end

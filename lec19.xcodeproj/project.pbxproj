@@ -23,6 +23,14 @@
 		1A55821418EF11AD001380B5 /* lec19Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55821318EF11AD001380B5 /* lec19Tests.m */; };
 		1A55821E18EF12E2001380B5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55821D18EF12E2001380B5 /* iAd.framework */; };
 		1A55822118EF17D0001380B5 /* testObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55822018EF17D0001380B5 /* testObj.m */; };
+		1A55830F18EF1A90001380B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55830E18EF1A90001380B5 /* SystemConfiguration.framework */; };
+		1A55831118EF1A97001380B5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55831018EF1A97001380B5 /* MessageUI.framework */; };
+		1A55831318EF1A9C001380B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55831218EF1A9C001380B5 /* AudioToolbox.framework */; };
+		1A55832018EF216F001380B5 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55831F18EF216F001380B5 /* libGoogleAdMobAds.a */; };
+		1A55832218EF2254001380B5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55832118EF2254001380B5 /* AdSupport.framework */; };
+		1A55832418EF2259001380B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55832318EF2259001380B5 /* AVFoundation.framework */; };
+		1A55832618EF2269001380B5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55832518EF2269001380B5 /* CoreTelephony.framework */; };
+		1A55832818EF226E001380B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55832718EF226E001380B5 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,23 @@
 		1A55821D18EF12E2001380B5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		1A55821F18EF17D0001380B5 /* testObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testObj.h; sourceTree = "<group>"; };
 		1A55822018EF17D0001380B5 /* testObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testObj.m; sourceTree = "<group>"; };
+		1A55830E18EF1A90001380B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A55831018EF1A97001380B5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1A55831218EF1A9C001380B5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A55831418EF20F3001380B5 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		1A55831518EF20F3001380B5 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		1A55831618EF20F3001380B5 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		1A55831718EF20F3001380B5 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		1A55831818EF20F3001380B5 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		1A55831918EF20F3001380B5 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		1A55831A18EF20F3001380B5 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		1A55831B18EF20F3001380B5 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		1A55831C18EF20F3001380B5 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		1A55831F18EF216F001380B5 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		1A55832118EF2254001380B5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1A55832318EF2259001380B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A55832518EF2269001380B5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1A55832718EF226E001380B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +90,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A55821E18EF12E2001380B5 /* iAd.framework in Frameworks */,
+				1A55832818EF226E001380B5 /* StoreKit.framework in Frameworks */,
+				1A55832618EF2269001380B5 /* CoreTelephony.framework in Frameworks */,
+				1A55832418EF2259001380B5 /* AVFoundation.framework in Frameworks */,
+				1A55832218EF2254001380B5 /* AdSupport.framework in Frameworks */,
+				1A55831318EF1A9C001380B5 /* AudioToolbox.framework in Frameworks */,
+				1A55832018EF216F001380B5 /* libGoogleAdMobAds.a in Frameworks */,
+				1A55831118EF1A97001380B5 /* MessageUI.framework in Frameworks */,
+				1A55830F18EF1A90001380B5 /* SystemConfiguration.framework in Frameworks */,
 				1A5581EB18EF11AD001380B5 /* CoreGraphics.framework in Frameworks */,
+				1A55821E18EF12E2001380B5 /* iAd.framework in Frameworks */,
 				1A5581ED18EF11AD001380B5 /* UIKit.framework in Frameworks */,
 				1A5581E918EF11AD001380B5 /* Foundation.framework in Frameworks */,
 			);
@@ -107,6 +140,13 @@
 		1A5581E718EF11AD001380B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A55832718EF226E001380B5 /* StoreKit.framework */,
+				1A55832518EF2269001380B5 /* CoreTelephony.framework */,
+				1A55832318EF2259001380B5 /* AVFoundation.framework */,
+				1A55832118EF2254001380B5 /* AdSupport.framework */,
+				1A55831218EF1A9C001380B5 /* AudioToolbox.framework */,
+				1A55831018EF1A97001380B5 /* MessageUI.framework */,
+				1A55830E18EF1A90001380B5 /* SystemConfiguration.framework */,
 				1A55821D18EF12E2001380B5 /* iAd.framework */,
 				1A5581E818EF11AD001380B5 /* Foundation.framework */,
 				1A5581EA18EF11AD001380B5 /* CoreGraphics.framework */,
@@ -135,6 +175,16 @@
 		1A5581EF18EF11AD001380B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A55831418EF20F3001380B5 /* GADAdMobExtras.h */,
+				1A55831518EF20F3001380B5 /* GADAdNetworkExtras.h */,
+				1A55831618EF20F3001380B5 /* GADAdSize.h */,
+				1A55831718EF20F3001380B5 /* GADBannerView.h */,
+				1A55831818EF20F3001380B5 /* GADBannerViewDelegate.h */,
+				1A55831918EF20F3001380B5 /* GADInterstitial.h */,
+				1A55831A18EF20F3001380B5 /* GADInterstitialDelegate.h */,
+				1A55831B18EF20F3001380B5 /* GADRequest.h */,
+				1A55831C18EF20F3001380B5 /* GADRequestError.h */,
+				1A55831F18EF216F001380B5 /* libGoogleAdMobAds.a */,
 				1A5581F018EF11AD001380B5 /* lec19-Info.plist */,
 				1A5581F118EF11AD001380B5 /* InfoPlist.strings */,
 				1A5581F418EF11AD001380B5 /* main.m */,
@@ -389,7 +439,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lec19/lec19-Prefix.pch";
 				INFOPLIST_FILE = "lec19/lec19-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lec19/Add-ons/GoogleAnalyticsServicesiOS_3.03",
+					"$(PROJECT_DIR)/lec19",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,6 +460,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lec19/lec19-Prefix.pch";
 				INFOPLIST_FILE = "lec19/lec19-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lec19/Add-ons/GoogleAnalyticsServicesiOS_3.03",
+					"$(PROJECT_DIR)/lec19",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +531,7 @@
 				1A55821918EF11AD001380B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A55821A18EF11AD001380B5 /* Build configuration list for PBXNativeTarget "lec19Tests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +540,7 @@
 				1A55821C18EF11AD001380B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
