@@ -20,10 +20,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    [UIView animateWithDuration:1.0 animations:^{
+        banner.alpha = 1.0;
+    }];
+}
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView animateWithDuration:1.0 animations:^{
+        banner.alpha = 0;
+    }];
 }
 
 @end
